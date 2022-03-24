@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body {
+    background-color:#eaeaea;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+body {
+    min-height: 100%;
+    display:grid;
+}
+
+/* Background Colors */
+.bg-lightgreen {
+    background-color: rgb(155, 255, 155);
+}
+
+/* Card */
+.card-img {
+    border-radius: 3px 3px 0px 0px
+}
+.card > a {
+    text-decoration: none;
+}
+
+/* Navbar Brand */
+.logo-img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+/* Btn Home */
+#btn-home {
+    float: left;
+    position: relative;
+    margin-top: -40px;
+    border-radius: 50%;
+    background-color: rgb(91, 189, 255);
+    border-color: none;
+    padding: 5px 12px 10px 10px;
+    align-items: center;
+    transition: ease-out 1s;
+}
+
+@media only screen and (max-width: 1000px){
+    #btn-home {
+        padding: 2.5px 10px 5px 5px;    
+    }
+    /* margin y axis - extra small - 3 */
+    #index-cards {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+
+#btn-text {
+    vertical-align: middle;
+    position: absolute;
+    visibility: hidden;
+}
+
+#btn-home:hover {
+    background-color: rgb(240, 249, 255);
+    border-color: rgb(91, 189, 255);
+    border-width: 1px;
+    color: black;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 100px;
+    transition: ease-in 0.5s 0.5s;
+}
+    /* animation: switchColor 0.5s;
+    animation-timing-function:linear;
+    animation-delay:0.2s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes switchColor {
+    20% { background-color: white;}
+    30% { 
+        border-radius: 30px 30px 30px 30px;
+        }
+    100% {
+        background-color: rgb(87, 185, 250);
+        border-radius: 30px 30px 30px 30px;
+        padding-right: 100px;
+        }
+} */
+
+/* my custom Container Fluid 1 */
+#myContainerFluid > h1 {
+    float: center;
+}
+#myContainerFluid {
+    position: relative;
+}
+
+/* Btn Rounded */
+.btn-round {
+    border-radius: 50px;
+}
+
+/* Wrapper, This only works for big screens */
+@media  only screen and (min-width: 1000px){
+    .wrapper {
+        margin-left:auto;
+        margin-right:auto;
+        width:960px;
+    }
+}
+
+/* Bg-Gradient Grey */
+.bg-gradient-grey {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.062) 1%, rgb(255, 255, 255) 20%);
+    background-size: cover;
+}
+
+/* Index-Cards Settings */
+#index-cards {
+    transform: scale(1);
+    transition: ease-in 0.2s;
+}
+
+#index-cards:hover {
+    transform: scale(1.1);
+    transition: ease-out 0.2s;
+}
+
+/* A Big Space to seperate the top of the website and the Footer */
+.bigSpace {
+    padding: 100px;
+}
+
+/* Footer Settings */
+#footerContainer {
+    padding: 24px;
+}
+.footer {
+    height: 10px;
+    margin-top: auto;
+}
