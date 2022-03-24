@@ -1,5 +1,5 @@
 # Computational-Converters
-This has a list of files that can convert various sizes.
+This website is a compilation of converters which can vary from size to size.
 
 Features:
 1. It has a  miles converter which converts miles into either kilometers, centimeters, inches, and feet.
